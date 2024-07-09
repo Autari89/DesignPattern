@@ -4,14 +4,14 @@
 #include <memory>
 
 class HeadDepartment :
-    public Department
+	public Department
 {
 public:
-    HeadDepartment(const std::string& departmentName);
+	HeadDepartment(const std::string& departmentName);
 	void printDepartmentName() override;
-    void addDepartment(std::unique_ptr<Department> department);
+	void addDepartment(std::unique_ptr<Department> department);
 
 private:
-    std::vector<std::unique_ptr<Department>> m_departments;
+	std::vector<std::unique_ptr<Department>> m_departments;
 };
 

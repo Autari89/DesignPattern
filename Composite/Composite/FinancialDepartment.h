@@ -2,10 +2,10 @@
 #include "Department.h"
 
 class FinancialDepartment :
-    public Department
+	public Department
 {
 public:
-    FinancialDepartment(const std::string& departmentName);
-    void printDepartmentName() override;
+	FinancialDepartment(const std::string& departmentName);
+	void printDepartmentName() override;
 };
 

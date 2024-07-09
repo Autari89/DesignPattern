@@ -4,7 +4,7 @@
 #include <memory>
 
 class SalesDepartment :
-    public Department
+	public Department
 {
 public:
 	SalesDepartment(const std::string& departmentName);
